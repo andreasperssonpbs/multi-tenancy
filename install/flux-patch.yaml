@@ -12,7 +12,7 @@ spec:
             - --memcached-hostname=flux-memcached.flux-system
             - --memcached-service=
             - --git-poll-interval=5m
-            - --sync-interval=5m
+            - --sync-interval=1m
             - --ssh-keygen-dir=/var/fluxd/keygen
             - --git-branch=master
             - --git-path=cluster
