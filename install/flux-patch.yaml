@@ -16,4 +16,4 @@ spec:
             - --ssh-keygen-dir=/var/fluxd/keygen
             - --git-branch=master
             - --git-path=cluster
-            - --git-url=git@https://github.com/andreasperssonpbs/multi-tenancy.git
+            - --git-url=git@ssh://github.com/andreasperssonpbs/multi-tenancy.git
